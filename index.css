@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo h1 {
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.menu {
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.menu a {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    color: white;
+    background-attachment: fixed;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding-left: 500px;
+    padding-top: 140px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin: 0 0 50px;
+    font-weight: bold;
+}
+
+.hero button {
+    padding: 20px 30px;
+    background: transparent;
+    background-color: rgb(169, 151, 123);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: white;
+    color: black;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.text h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+.image1 {
+    height: 600px;
+    font-size: 17px;
+}
+
+.image1 img {
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.image1 input {
+    width: 390px;
+    height: 29px;
+    margin-top: 10px;
+}
+.image1 p{
+    font-size: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.image1 button {
+    margin-top: 10px;
+    padding: 15px 160px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: transparent;
+}
+
+.image1 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: rgb(20, 32, 38);
+    height: 1000px;
+    color: white;
+}
+
+.container1 h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.container1 p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.container2 {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.container2 img {
+    margin-top: 100px;
+    height: 600px;
+    width: 560px;
+    cursor: pointer;
+}
+
+.text-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.text-1 h1{
+    font-size: 60px;
+}
+.text-1 p{
+    font-size: 20px;
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image3 {
+    height: 450px;
+}
+
+.image3 img {
+    height: 250px;
+    width: 250px;
+}
+
+.image3 p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image3 input {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.image3 button {
+    margin-top: 10px;
+    padding: 13px 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: transparent;
+}
+
+.image3 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    background-color: rgb(169, 151, 123);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.content p{
+    font-size: 18px;
+}
+
+.content button {
+    margin: 40px;
+    padding: 15px 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin-top: 1px;
+    height: 100%;
+}
+
+.main1 {
+    background-image: url("./image12.jpg");
+    height: 980px;
+    width: 1000px;
+    background-size: cover;
+}
+
+.main2 {
+    background-color: rgb(20, 32, 38);
+    width: 1200px;
+    color: white;
+    padding-top: 250px;
+}
+
+.text3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.text3 h1{
+    font-size: 50px;
+}
+
+.input-row {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 340px;
+    gap: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    background: transparent;
+    border: 1px solid white;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.input {
+    margin-left: 340px;
+}
+
+.input input {
+    width: 350px;
+    padding-top: 15px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.newsletter-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-left: 340px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.newsletter-checkbox input{
+    cursor: pointer;
+}
+
+.main2 button {
+    margin-left: 340PX;
+    padding: 10px 155px;
+    background-color: rgb(169, 151, 123);
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.main2 button:hover {
+    background-color: white;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 150px;
+}
+
+.footer1 {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.footer1 h2 {
+    margin-bottom: 30px;
+}
+
+.footer2 {
+    display: flex;
+    gap: 20px;
+}
